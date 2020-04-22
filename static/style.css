@@ -1,0 +1,86 @@
+
+body {
+  background-image: url('../static/goodreads12.jpg');
+  background-repeat: no-repeat round;
+  background-size: cover;
+  background-origin: padding-box;
+  background-position: center;
+}
+nav {
+  position: relative;
+  margin: 2px;
+  top: 2rem;
+  background: #ebd4d4;
+  padding: .5rem;
+}
+nav a:hover {
+  color:#5c9f7f;
+}
+nav a {
+  color: #e6dddd;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.logo {
+  margin: 0.5em;
+}
+.content {
+  padding: 0;
+  margin: 2em 0;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+.card-body {
+    text-align: start;
+}
+
+.results-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.book-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-border {
+    border-color: #4b0082;
+    border-style: solid;
+    border-radius: .5rem;
+    padding: 0.5rem;
+}
+.book_img {
+  max-width: 50%;
+  object-fit: cover;
+  float: right;
+}
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
